@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tilt.css">
+    
+</head>
+<body>
+    <img style="transform-style: preserve-3d; transform: translateZ(200px);" data-tilt-startX="50" data-tilt-startY="360" data-tilt-reset-to-start="true" data-tilt-scale="1.1" data-tilt data-tilt-glare data-tilt-max-glare="0.8" class="card" src="https://images.unsplash.com/photo-1685058160554-17a165ad47da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+   <div class="card">inner content</div>
+    <script src="tilt.js"></script>
+    <script>
+        $('.card').tilt({
+    glare: true,
+    maxGlare: .1
+})
+    </script>
+</body>
+</html>
